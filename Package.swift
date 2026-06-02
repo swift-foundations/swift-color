@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../swift-standards/swift-color-standard"),
+        .package(url: "https://github.com/swift-standards/swift-color-standard.git", branch: "main"),
     ],
     targets: [
         .target(
