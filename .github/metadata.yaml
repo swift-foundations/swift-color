@@ -1,6 +1,6 @@
 # .github/metadata.yaml
 # Triaged 2026-04-29 — anomaly-fix pass after wave-4 PR-branch triage didn't apply.
-description: "Color for Swift."
+description: "Color-space conversion — sRGB, Oklab, Oklch, CIE LAB and LCH — through a single canonical interchange type, plus terminal SGR color output for Swift."
 topics:
   - foundations
   - color
