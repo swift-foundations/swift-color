@@ -9,8 +9,8 @@
 //
 // ===----------------------------------------------------------------------===//
 
-import Testing
 import Color
+import Testing
 
 @Suite
 struct ColorTests {
