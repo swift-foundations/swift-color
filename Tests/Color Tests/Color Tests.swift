@@ -12,9 +12,10 @@
 import Color
 import Testing
 
-@Suite
-struct ColorTests {
-    @Test
-    func `Color module re-exports Color_Standard`() {
+extension Color {
+    @Suite struct Test {
+        @Test
+        func `Color module re-exports Color_Standard`() {
+        }
     }
 }
